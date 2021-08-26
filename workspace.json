@@ -20,7 +20,13 @@
               "apps/container/src/assets"
             ],
             "styles": [],
-            "scripts": [],
+            "scripts": [
+              {
+                "bundleName": "env",
+                "inject": true,
+                "input": "apps/container/src/env.js"
+              }
+            ],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
           "configurations": {
